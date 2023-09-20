@@ -1,0 +1,166 @@
+/**
+ * Theme Name: Bizpro Template
+ * Author: ashrafulsarkar47@gmail.com
+ * Support: ashrafulsarkar47@gmail.com
+ * Version: 1.0.0
+*/
+
+/*======================
+    Theme default css
+=====================*/
+:root{
+    --site_primary_color: #060640;
+    --site_secondary_color: #00E5CC;
+    --site_paragraph_color: #9090A7;
+    --site_black_color: #000000;
+    --site_white_color: #ffffff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus,
+a:focus-visible,
+a:visited,
+a:active {
+	text-decoration: none;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus{
+	outline: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 50px;
+	line-height: 65px;
+}
+h2 {
+	font-size: 45px;
+	line-height: 55px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 34px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 28px;
+}
+h5 {
+	font-size: 16px;
+	line-height: 22px;
+}
+h6 {
+	font-size: 15px;
+	line-height: 20px;
+}
+ul, ol, li {
+	margin: 0px;
+	padding: 0px;
+    list-style-position: inside;
+    list-style: none;
+}
+p {
+	margin-bottom: 0;
+}
+*::-moz-selection {
+	background: var(--site_primary_color);
+	color: var(--site_white_color);
+	text-shadow: none;
+}
+::-moz-selection {
+	background: var(--site_primary_color);
+	color: var(--site_white_color);
+	text-shadow: none;
+}
+::selection {
+	background: var(--site_primary_color);
+	color: var(--site_white_color);
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: var(--site_paragraph_color);
+	font-size: 16px;
+	opacity: 1;
+}
+*::placeholder {
+	color: var(--site_paragraph_color);
+	font-size: 16px;
+	opacity: 1;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+.btn {
+	color: var(--site_white_color);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 15px;
+	padding: 20px 30px;
+	display: block;
+	text-align: center;
+	background: var(--site_primary_color);
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	transition: all 0.3s ease-out 0s;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+}
+.btn:hover {
+    background: rgba(255, 255, 255, 0.30);
+}
